@@ -1,0 +1,161 @@
+@charset "UTF-8";
+
+/*Nome*/
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
+
+/*Menu*/
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&family=Orienta&display=swap');
+
+/*texto*/
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap');
+
+
+/*Geral*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+/*Fim da Config Geral*/
+
+
+/*Cabeçalho*/
+header {
+    width: 100%;
+    height: 130px;
+    background-color: #111;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.Container-nome {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.Nome {
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.um {
+    font-size: 35pt;
+}
+
+.dois {
+
+    font-size: 15pt;
+    text-align: right;
+    font-family: 'Red Hat Display', sans-serif;
+    margin-left: 370px;
+    padding: 5px;
+    color: white;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0 10px;
+    
+}
+
+.menu li a {
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 10px;
+    border-radius: 20px;
+    font-family: 'Cormorant SC', serif;
+}
+
+.menu li a:hover {
+    background-color: rgba(100, 100, 100, 0.3);
+}
+/*Fim do Cabeçalho*/
+
+
+/*corpo*/
+body {
+    background-color: grey;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.box {
+    background-image: url(../imagens/alone.jpg);
+    width: 100%;
+    height: 850px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    position: relative;
+    
+}
+
+.box-2 {
+    width: 1000px;
+    height: 750px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;   
+    bottom: 0; 
+    left: 0; 
+    color: white;
+}
+
+.app {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 30px;
+    padding: 6px;
+}
+
+p {
+    color: white;
+    font-size: 14pt;
+    text-align: justify;
+    text-indent: 30px;
+    
+}
+/*fim do corpo*/
+
+
+/*Rodapé*/
+.footer {
+    width: 100%;
+    background-color: #111;
+    color: #fff;
+}
+
+/*contato*/
+.footer-title {
+    text-align: center;
+    padding: 25px 0;
+    font-size: 28px;
+}
+
+/*link e git*/
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+
+.socials-link {
+    margin: 10px;
+}
+/*2021*/
+
+.copyright {
+    background-color: black;
+    height: 70px;
+    padding: 25px 0;
+}
+    
+.copyright-text {
+    text-align: center;
+}
+

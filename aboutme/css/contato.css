@@ -1,0 +1,192 @@
+@charset "UTF-8";
+
+/*Nome*/
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
+
+/*Menu*/
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&family=Orienta&display=swap');
+
+/*texto*/
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap');
+
+
+/*Geral*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+/*Fim da Config Geral*/
+
+
+/*Cabeçalho*/
+header {
+    width: 100%;
+    height: 130px;
+    background-color: #111;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.container-nome {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.Nome {
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.um {
+    font-size: 35pt;
+}
+
+.dois {
+
+    font-size: 15pt;
+    text-align: right;
+    font-family: 'Red Hat Display', sans-serif;
+    margin-left: 370px;
+    padding: 5px;
+    color: white;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0 10px;
+    
+}
+
+.menu li a {
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 10px;
+    border-radius: 20px;
+    font-family: 'Cormorant SC', serif;
+}
+
+.menu li a:hover {
+    background-color: rgba(100, 100, 100, 0.3);
+}
+/*Fim do Cabeçalho*/
+
+
+/*corpo*/
+body {
+    background-color: grey;
+    font-family: 'Red Hat Display', sans-serif;
+    position: relative;
+}
+
+
+.container {
+    background-image: url(../imagens/notas.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 100%;
+    padding: 70px 0;
+    
+}
+
+.c-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.c-title {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 10px 10px 20px 5px black;
+    font-size: 40px;
+    width: 145px;
+    margin: 0 auto;
+    border-radius: 30px;
+    margin-bottom: 50px;
+}
+
+.c-contato {
+    width: 500px;
+    height: 150px;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 50px;
+     
+}
+
+.c-contato p {
+    font-size: 15pt;
+    padding: 10px;
+    text-align: left;
+}
+
+
+
+.c-aviso {
+    width: 500px;
+    height: 250px;
+    padding: 0px;
+    border: 1px solid ;
+    text-align: center;
+}
+
+.c-h1 {
+    background-color: red;
+    color: black;
+}
+
+.c-aviso p {
+    text-align: justify;
+    padding: 20px;
+    margin-top: 40px;
+    color: black;
+    font-size: 14pt;
+
+}
+
+
+/*fim do corpo*/
+
+
+/*Rodapé*/
+.footer {
+    width: 100%;
+    background-color: #111;
+    color: #fff;
+}
+
+/*contato*/
+.footer-title {
+    text-align: center;
+    padding: 25px 0;
+    font-size: 28px;
+}
+
+/*link e git*/
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+
+.socials-link {
+    margin: 10px;
+}
+/*2021*/
+
+.copyright {
+    background-color: black;
+    height: 70px;
+    padding: 25px 0;
+}
+    
+.copyright-text {
+    text-align: center;
+}
