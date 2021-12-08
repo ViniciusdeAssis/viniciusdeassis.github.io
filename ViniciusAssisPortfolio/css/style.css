@@ -89,7 +89,8 @@ header {
 .btn div {
     background-color: white;
     width:  50px;
-    height: 15px;
+    height: 12px;
+    border-radius: 5px;
 
 }
 
@@ -198,37 +199,8 @@ body {
 
 /*Media queries*/
 
-/*NoteBook*/
-@media (max-width: 992px) {
-    .um {
-        font-size: 24pt;
-    }
-
-    .dois {
-        font-size: 12pt;
-        margin: auto;
-    }
-    .menu li {
-        padding: 0px;
-        margin: 5px;
-    }
-    .menu li a {
-        font-size: 11pt;
-        padding: 5px;
-
-    }
-
-}
-
 /*Tablet*/
 @media screen and ( max-width: 768px) {
-    .titulo {
-        font-size: 3.2em;
-    }
-    .texto-principal {
-        font-size: 1.1em;
-        padding-top: 15px;
-    }
     .um {
         font-size: 20pt;
     }
@@ -237,12 +209,27 @@ body {
         font-size: 12pt;
         margin: auto;
     }
+    .titulo {
+        font-size: 3.2em;
+    }
+    .texto-principal {
+        font-size: 1.1em;
+        padding-top: 15px;
+    }
 
 }
 /*Tablet Paisagem e Monitores antigos*/
 @media screen and ( max-width: 960px) {
     .menu li a {
-        font-size: 14pt;
+        font-size: 12pt;
+    }
+    .um {
+        font-size: 20pt;
+    }
+
+    .dois {
+        font-size: 12pt;
+        margin: auto;
     }
     .titulo {
         font-size: 4em;
@@ -251,29 +238,18 @@ body {
         font-size: 1.4em;
         padding-top: 15px;
     }
-    .um {
-        font-size: 30pt;
-    }
-
-    .dois {
-        font-size: 16pt;
-        margin: auto;
-    }
-
 }
 
 
 /*Celular*/
 @media (max-width: 320px) { 
-    .titulo {
-        font-size: 2em;
-    }
-    .texto-principal {
-        font-size: 1em;
+    .menu{
+        display: none;
     }
     .btn {
         right: 15px;
         top: 37px;
+        display: block;
     }
     .um {
         font-size: 16pt;
@@ -281,22 +257,28 @@ body {
 
     .dois {
         font-size: 10pt;
-        margin: auto;
+    }
+    .titulo {
+        font-size: 2em;
+    }
+    .texto-principal {
+        font-size: 1em;
     }
 
 }
 /*Celular Paisagem*/
 @media (max-width: 480px) { 
-    .titulo {
-        font-size: 2.3em;
-    }
-    .texto-principal {
-        font-size: 1.2em;
+    .menu{
+        display: none;
     }
     .btn {
-        right: 50px;
-        top: 27px;
-        padding: 15px;
+        right: 30px;
+        top: 20px;
+        margin: 10px;
+        display: block;
+    }
+    .Container-nome {
+        
     }
     .um {
         font-size: 20pt;
@@ -306,5 +288,10 @@ body {
         font-size: 12pt;
         margin: auto;
     }
-
+    .titulo {
+        font-size: 2.3em;
+    }
+    .texto-principal {
+        font-size: 1.2em;
+    }
 }
