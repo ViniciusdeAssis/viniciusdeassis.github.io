@@ -84,7 +84,7 @@ body {
 }
 
 .box {
-    background-image: url(/ViniciusAssisPortfolio/imagens/code.jpg);
+    background-image: url(/ViniciusAssisPortfolio/imagens/notebook.jpg);
     width: 100%;
     height: 850px;
     background-size: cover;
@@ -95,7 +95,7 @@ body {
 }
 
 .box-2 {
-    width: 1000px;
+    width: 1300px;
     height: 750px;
     position: absolute;
     margin: auto;
@@ -107,18 +107,23 @@ body {
 }
 
 .app {
-    color: white;
-    background-color: rgba(0, 0, 0, 0.9);
+    color: rgb(255, 255, 255);
     border-radius: 30px;
     padding: 6px;
+    background-color: rgba(255, 169, 169, 0.8);
+    
 }
 
 p {
     color: white;
     font-size: 14pt;
+    font-weight: 600;
     text-align: justify;
     text-indent: 30px;
-    
+    border-radius: 15px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+
 }
 /*fim do corpo*/
 
