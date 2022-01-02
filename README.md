@@ -14,3 +14,4 @@
 
 - Melhorar responsividade web.
 - Aplicar responsividade mobile.
+- Aplicar JavaScript.
