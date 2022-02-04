@@ -23,7 +23,7 @@
 /*Cabeçalho*/
 header {
     width: 100%;
-    height: 130px;
+    height: 230px;
     background-color: #111;
     display: flex;
     justify-content: space-around;
@@ -81,86 +81,91 @@ header {
 body {
     background-color: grey;
     font-family: 'Red Hat Display', sans-serif;
-}
-
-.box {
     background-image: url(/ViniciusAssisPortfolio/imagens/notebook.jpg);
     width: 100%;
-    height: 850px;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: inherit;
     background-position:center;
-    position: relative;
+}
+
+.box-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
     
 }
 
-.box-2 {
-    width: 1300px;
-    height: 750px;
-    position: absolute;
-    margin: auto;
-    top: 0;
-    right: 0;   
-    bottom: 0; 
-    left: 0; 
-    color: white;
+.box-sobre {
+    width: 70%;
 }
 
-.app {
+.titulo-sobre {
     color: rgb(255, 255, 255);
     border-radius: 30px;
-    padding: 6px;
-    background-color: rgba(102, 102, 102, 0.8);
-    
+    padding: 10px;
+    background-color: rgba(102, 102, 102, .9);
+
 }
 
-p {
+.texto-sobre {
     color: white;
     font-size: 14pt;
     font-weight: 600;
     text-align: justify;
     text-indent: 30px;
-    border-radius: 15px;
+    border-radius: 30px;
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, .7);
+    
 
 }
 /*fim do corpo*/
 
 
 /*Rodapé*/
-.footer {
+footer {
+    height: 230px;
     width: 100%;
     background-color: #111;
     color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+}
+
+.caixa {
+    width: 50%;
+    height: 100%;
+
 }
 
 /*contato*/
-.footer-title {
+.title h3 {
+    font-size: 35px;
     text-align: center;
-    padding: 25px 0;
-    font-size: 28px;
+    margin: 10px;
+
 }
 
 /*link e git*/
-.socials {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.box-redes-sociais {
+    text-align: center;
+    margin: 20px;
+
 }   
 
-.socials-link {
-    margin: 10px;
-}
-/*2021*/
-
-.copyright {
-    background-color: black;
-    height: 70px;
-    padding: 25px 0;
-}
-    
-.copyright-text {
+.imagens {
     text-align: center;
+    padding: 10px;
 }
 
+
+/*Copyright*/
+.copyright p {
+    text-align: center;
+    margin: 30px;
+    font-size: 21px;
+}

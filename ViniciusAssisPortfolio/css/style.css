@@ -32,21 +32,21 @@ header {
     
 }
 
-.Container-nome {
+.container-nomes {
     display: flex;
     align-items: center;
     color: white;
 }
 
-.Nome {
+.container-nomes-2 {
     font-family: 'Cinzel Decorative', cursive;
 }
 
-.um {
+.nome-um {
     font-size: 35pt;
 }
 
-.dois {
+.nome-dois {
 
     font-size: 15pt;
     text-align: right;
@@ -75,34 +75,6 @@ header {
 .menu li a:hover {
     background-color: rgba(100, 100, 100, 0.3);
 }
-
-.btn {
-    display: none;
-    border: none;
-    font-size: 36px;
-    position: absolute;
-    right: 10px;
-    top: 10px;
-    padding: 5px;
-}
-
-.btn div {
-    background-color: white;
-    width:  50px;
-    height: 12px;
-    border-radius: 5px;
-
-}
-
-.btn div + div {
-    margin-top: 5px;
-}
-
-.btn:hover {
-    cursor: pointer;
-    opacity: 0.3;
-    background-color: rgba(255, 255, 255, 0.2);
-}
 /*Fim do Cabeçalho*/
 
 
@@ -112,7 +84,7 @@ body {
     font-family: 'Red Hat Display', sans-serif;
 }
 
-.box {
+.box-1 {
     background-image: url(../imagens/doors.jpg);
     width: 100%;
     height: 850px;
@@ -199,99 +171,46 @@ body {
 
 /*Media queries*/
 
-/*Tablet*/
-@media screen and ( max-width: 768px) {
-    .um {
-        font-size: 20pt;
-    }
 
-    .dois {
-        font-size: 12pt;
-        margin: auto;
+@media screen and ( max-width: 895px ) {
+    .nome-um {
+        font-size: 25pt;
+        margin-left: 30pt;
     }
-    .titulo {
-        font-size: 3.2em;
+    .nome-dois {
+        font-size: 13pt;
+        margin: 0px;
     }
-    .texto-principal {
-        font-size: 1.1em;
-        padding-top: 15px;
-    }
-
-}
-/*Tablet Paisagem e Monitores antigos*/
-@media screen and ( max-width: 960px) {
     .menu li a {
         font-size: 12pt;
     }
-    .um {
-        font-size: 20pt;
-    }
-
-    .dois {
-        font-size: 12pt;
-        margin: auto;
-    }
-    .titulo {
-        font-size: 4em;
-    }
-    .texto-principal {
-        font-size: 1.4em;
-        padding-top: 15px;
-    }
 }
 
+
+@media screen and ( max-width: 675px ) {
+    .nome-um {
+        font-size: 20pt;
+    }
+    .nome-dois {
+        font-size: 13pt;
+        
+    }
+    .menu li a {
+        font-size: 12pt;
+        padding: 12px;
+    }
+}
 
 /*Celular*/
 @media (max-width: 320px) { 
-    .menu{
-        display: none;
-    }
-    .btn {
-        right: 15px;
-        top: 37px;
-        display: block;
-    }
-    .um {
-        font-size: 16pt;
-    }
-
-    .dois {
-        font-size: 10pt;
-    }
     .titulo {
-        font-size: 2em;
+        font-size: 24pt;
     }
     .texto-principal {
-        font-size: 1em;
+        font-size: 15pt;
     }
-
 }
 /*Celular Paisagem*/
-@media (max-width: 480px) { 
-    .menu{
-        display: none;
-    }
-    .btn {
-        right: 30px;
-        top: 20px;
-        margin: 10px;
-        display: block;
-    }
-    .Container-nome {
-        
-    }
-    .um {
-        font-size: 20pt;
-    }
+@media (max-width: 480px) {
 
-    .dois {
-        font-size: 12pt;
-        margin: auto;
-    }
-    .titulo {
-        font-size: 2.3em;
-    }
-    .texto-principal {
-        font-size: 1.2em;
-    }
 }
