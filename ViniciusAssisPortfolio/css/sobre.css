@@ -223,3 +223,22 @@ footer {
     }
 
 }
+@media screen and ( max-width: 480px) {
+    .um {
+        font-size: 14pt;
+    }
+    .dois {
+        font-size: 9pt;
+        margin-left: 10px;
+    }
+    .menu li a {
+        font-size: 13px;
+        padding: 0;
+    }
+    .caixa {
+        width: 300px;
+    }
+    .copyright p{
+        font-size: 15px;
+    }
+}
