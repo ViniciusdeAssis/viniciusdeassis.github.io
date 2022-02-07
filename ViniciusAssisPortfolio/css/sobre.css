@@ -31,13 +31,13 @@ header {
     
 }
 
-.Container-nome {
+.container-nome {
     display: flex;
     align-items: center;
     color: white;
 }
 
-.Nome {
+.nome {
     font-family: 'Cinzel Decorative', cursive;
 }
 
@@ -81,11 +81,13 @@ header {
 body {
     background-color: grey;
     font-family: 'Red Hat Display', sans-serif;
+}
+.background {
     background-image: url(/ViniciusAssisPortfolio/imagens/notebook.jpg);
     width: 100%;
     background-size: cover;
-    background-repeat: inherit;
     background-position:center;
+    background-repeat: no-repeat;
 }
 
 .box-1 {
@@ -93,12 +95,21 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 50px;
     
+}
+.c-title {
+    color: rgb(250, 250, 250);
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 10px 10px 20px 5px black;
+    font-size: 50px;
+    border-radius: 30px;
+    margin: 50px;
+    padding: 15px;
 }
 
 .box-sobre {
     width: 70%;
+    margin-bottom: 90px;
 }
 
 .titulo-sobre {
@@ -146,7 +157,7 @@ footer {
 .title h3 {
     font-size: 35px;
     text-align: center;
-    margin: 10px;
+    margin-top: 10px;
 
 }
 
@@ -154,18 +165,61 @@ footer {
 .box-redes-sociais {
     text-align: center;
     margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }   
 
 .imagens {
     text-align: center;
-    padding: 10px;
+    margin: 5px;
 }
-
 
 /*Copyright*/
 .copyright p {
     text-align: center;
-    margin: 30px;
+    margin: 20px;
     font-size: 21px;
+}
+
+/*Media queries*/
+
+
+@media screen and ( max-width: 900px) {
+    .um {
+        font-size: 25pt;
+    }
+    .dois {
+        font-size: 14pt;
+        margin-left: 170px;
+    }
+    .copyright p {
+        font-size: 20px;
+    }
+}
+
+@media screen and ( max-width: 685px) {
+    ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    ul li {
+        padding: 20px;
+    }
+    .um {
+        font-size: 20pt;
+    }
+    .dois {
+        font-size: 12pt;
+        margin-left: 150px;
+    }
+    .menu li a {
+        font-size: 15px;
+    }
+    .copyright p{
+        font-size: 18px;
+    }
+
 }

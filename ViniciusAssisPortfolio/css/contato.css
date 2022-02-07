@@ -23,7 +23,7 @@
 /*Cabeçalho*/
 header {
     width: 100%;
-    height: 130px;
+    height: 230px;
     background-color: #111;
     display: flex;
     justify-content: space-around;
@@ -37,7 +37,7 @@ header {
     color: white;
 }
 
-.Nome {
+.nome {
     font-family: 'Cinzel Decorative', cursive;
 }
 
@@ -81,24 +81,23 @@ header {
 body {
     background-color: grey;
     font-family: 'Red Hat Display', sans-serif;
-    position: relative;
-}
-
-
-.container {
-    background-image: url(../imagens/notas.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position:center;
-    width: 100%;
-    padding: 70px 0;
+    
     
 }
+.background{
+    background-image: url(../imagens/notas.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
 
-.c-container {
+.box-1{
     display: flex;
-    align-items: center;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .c-title {
@@ -106,92 +105,119 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
     box-shadow: 10px 10px 20px 5px black;
     font-size: 50px;
-    width: 185px;
-    margin: 0 auto;
     border-radius: 30px;
-    margin-bottom: 50px;
-    padding: 5px;
+    margin: 50px;
+    padding: 15px;
 }
 
-.c-contato {
+.box-info{
     width: 500px;
     height: 150px;
-    padding: 20px;
     border: 1px solid black;
     margin: 50px;
+    text-align: center;
      
 }
 
-.c-contato p {
+.box-info p{
     font-size: 15pt;
     padding: 10px;
-    text-align: left;
     
 }
 
-.curriculo {
-    padding-left: 10px;
-}
-
-
-.c-aviso {
-    width: 500px;
-    height: 250px;
-    padding: 0px;
-    border: 1px solid ;
-    text-align: center;
-}
-
-.c-h1 {
+.c-h2 {
     background-color: red;
     color: black;
+    text-align: center;
 }
-
-.c-aviso p {
-    text-align: justify;
-    padding: 20px;
-    margin-top: 40px;
-    color: black;
-    font-size: 14pt;
-
-}
-
-
 /*fim do corpo*/
 
 
 /*Rodapé*/
-.footer {
+footer {
+    height: 230px;
     width: 100%;
     background-color: #111;
     color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+}
+
+.caixa {
+    width: 50%;
+    height: 100%;
+
 }
 
 /*contato*/
-.footer-title {
+.title h3 {
+    font-size: 35px;
     text-align: center;
-    padding: 25px 0;
-    font-size: 28px;
+    margin-top: 10px;
+
 }
 
 /*link e git*/
-.socials {
+.box-redes-sociais {
+    text-align: center;
+    margin: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
+
 }   
 
-.socials-link {
-    margin: 10px;
-}
-/*2021*/
-
-.copyright {
-    background-color: black;
-    height: 70px;
-    padding: 25px 0;
-}
-    
-.copyright-text {
+.imagens {
     text-align: center;
+    margin: 5px;
+}
+
+/*Copyright*/
+.copyright p {
+    text-align: center;
+    margin: 20px;
+    font-size: 21px;
+}
+
+/*Media queries*/
+
+
+@media screen and ( max-width: 900px) {
+    .um {
+        font-size: 25pt;
+    }
+    .dois {
+        font-size: 14pt;
+        margin-left: 170px;
+    }
+    .copyright p {
+        font-size: 20px;
+    }
+}
+
+@media screen and ( max-width: 685px) {
+    ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    ul li {
+        padding: 20px;
+    }
+    .um {
+        font-size: 20pt;
+    }
+    .dois {
+        font-size: 12pt;
+        margin-left: 150px;
+    }
+    .menu li a {
+        font-size: 15px;
+    }
+    .copyright p{
+        font-size: 18px;
+    }
+
 }
