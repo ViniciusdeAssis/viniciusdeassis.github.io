@@ -223,6 +223,11 @@ footer {
     }
 
 }
+@media screen and ( max-width: 545px) {
+    .copyright p {
+        font-size: 13px;
+    }
+}
 @media screen and ( max-width: 480px) {
     .um {
         font-size: 14pt;
@@ -241,4 +246,4 @@ footer {
     .copyright p{
         font-size: 15px;
     }
-}
+} 

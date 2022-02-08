@@ -85,7 +85,7 @@ body {
     
 }
 .background{
-    background-image: url(../imagens/notas.jpg);
+    background-image: url(../imagens/paper-and-pen.jpg);
     width: 100%;
     background-size: cover;
     background-position:center;
@@ -98,10 +98,11 @@ body {
     justify-content: center;
     align-items: center;
     
+    
 }
 
 .c-title {
-    color: rgb(250, 250, 250);
+    color: rgb(255, 255, 255);
     background-color: rgba(0, 0, 0, 0.5);
     box-shadow: 10px 10px 20px 5px black;
     font-size: 50px;
@@ -111,11 +112,13 @@ body {
 }
 
 .box-info{
-    width: 500px;
+    width: 503px;
     height: 150px;
-    border: 1px solid black;
+    border: 3px solid rgb(0, 0, 0);
     margin: 50px;
-    text-align: center;
+    text-align: start;
+    color: #fff;
+    
      
 }
 
@@ -124,10 +127,15 @@ body {
     padding: 10px;
     
 }
+.box-info a {
+    font-size: 15pt;
+    padding: 10px;
+}
+
 
 .c-h2 {
     background-color: red;
-    color: black;
+    color: rgb(0, 0, 0);
     text-align: center;
 }
 /*fim do corpo*/
@@ -181,8 +189,8 @@ footer {
     font-size: 21px;
 }
 
-/*Media queries*/
 
+/*Media queries*/
 
 @media screen and ( max-width: 900px) {
     .um {
@@ -197,7 +205,7 @@ footer {
     }
 }
 
-@media screen and ( max-width: 685px) {
+@media screen and ( max-width: 695px) {
     ul {
         display: flex;
         flex-direction: column;
@@ -217,9 +225,14 @@ footer {
         font-size: 15px;
     }
     .copyright p{
-        font-size: 18px;
+        font-size: 15px;
     }
 
+}
+@media screen and ( max-width: 545px) {
+    .copyright p {
+        font-size: 13px;
+    }
 }
 @media screen and ( max-width: 480px) {
     .um {
@@ -237,6 +250,6 @@ footer {
         width: 300px;
     }
     .copyright p{
-        font-size: 15px;
+        font-size: 13px;
     }
 }
