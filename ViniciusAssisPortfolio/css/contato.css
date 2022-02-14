@@ -114,11 +114,11 @@ body {
 .box-info{
     width: 503px;
     height: 150px;
-    border: 3px solid rgb(0, 0, 0);
     margin: 50px;
     text-align: start;
     color: #fff;
-    
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 10px 20px 20px 5px black;
      
 }
 
