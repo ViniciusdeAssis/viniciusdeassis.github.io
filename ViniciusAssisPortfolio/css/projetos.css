@@ -37,15 +37,15 @@ header {
     color: white;
 }
 
-.nome {
+.nomes {
     font-family: 'Cinzel Decorative', cursive;
 }
 
-.um {
+.primeiro-nome {
     font-size: 35pt;
 }
 
-.dois {
+.segundo-nome {
 
     font-size: 15pt;
     text-align: right;
@@ -77,72 +77,86 @@ header {
 /*Fim do Cabeçalho*/
 
 
-/*corpo*/
+/*Corpo*/
 body {
     background-color: grey;
     font-family: 'Red Hat Display', sans-serif;
-}
-.background {
-    background-image: url(/ViniciusAssisPortfolio/imagens/notebook.jpg);
-    width: 100%;
-    background-size: cover;
-    background-position:center;
-    background-repeat: no-repeat;
+
 }
 
-.box-1 {
+.background {
+    background-image: url(../imagens/code.jpg);
+    width: 100%;
+    height: 850px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     
+
 }
+
 .c-title {
-    color: rgb(250, 250, 250);
+    color: rgb(255, 255, 255);
     background-color: rgba(0, 0, 0, 0.5);
     box-shadow: 10px 10px 20px 5px black;
     font-size: 50px;
     border-radius: 30px;
     margin: 50px;
     padding: 15px;
-}
-
-.box-sobre {
-    width: 70%;
-    margin-bottom: 90px;
-    background-color: #121212;
-    border-radius: 30px;
 
 }
 
-.titulo-sobre {
-    color: rgb(255, 255, 255);
-    border-radius: 30px;
-    padding: 10px;
-    background-color: rgba(102, 102, 102, .9);
-
+.container {
+    width: 100%;
+    height: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: auto;
+    
 }
 
-.texto-sobre {
-    color: white;
-    font-size: 15pt;
-    font-weight: 600;
-    text-align: justify;
-    text-indent: 30px;
-    padding: 10px;
+.projetos {
+    background-color: #e8e8e8;
+    width: 500px;
+    height: 250px;
+    border: white inset 5px;
+    border-radius: 7px;
+    margin: 10px;
       
 }
 
-.tecs {
-    color: white;
-    font-size: 13pt;
-    font-weight: 400;
-    text-align: justify;
-    border-radius: 30px;
+.title-proj {
+    font-size: 22pt;
+    text-align: center;
     padding: 10px;
-
+    color: white;
+    background:#252525;
 }
-/*fim do corpo*/
+
+.links {
+    padding: 3px;
+    text-decoration: none;
+}
+
+p {
+    padding: 10px;
+    font-size: 13pt;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*Fim do Corpo*/
 
 
 /*Rodapé*/
@@ -157,14 +171,14 @@ footer {
 
 }
 
-.caixa {
+.container-contatos {
     width: 50%;
     height: 100%;
 
 }
 
 /*contato*/
-.title h3 {
+.title-contato h3 {
     font-size: 35px;
     text-align: center;
     margin-top: 10px;
@@ -243,7 +257,7 @@ footer {
         font-size: 14pt;
     }
     .dois {
-        font-size: 9pt;
+        font-size: 9pt;/
         margin-left: 10px;
     }
     .menu li a {
@@ -256,4 +270,4 @@ footer {
     .copyright p{
         font-size: 15px;
     }
-} 
+}

@@ -87,6 +87,7 @@ body {
 .background{
     background-image: url(../imagens/paper-and-pen.jpg);
     width: 100%;
+    height: 850px;
     background-size: cover;
     background-position:center;
     background-repeat: no-repeat;
@@ -97,8 +98,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-    
+        
 }
 
 .c-title {
@@ -109,29 +109,45 @@ body {
     border-radius: 30px;
     margin: 50px;
     padding: 15px;
+    
 }
 
 .box-info{
-    width: 503px;
-    height: 150px;
-    margin: 50px;
+    width: 400px;
+    height: 290px;
     text-align: start;
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0.2);
-    box-shadow: 10px 20px 20px 5px black;
-     
+    color: black;
+    background: white;
+    border-radius: 10px;
+    border: grey double 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.infos-pessoais {
+   
+}
+
+.infos-pessoais a {
+
+    font-size: 15pt;
+    text-decoration: none;
+
+}
+
+.email-cel-curriculum {
+    background:#252525;
+    color: white;
+    padding: 10px;
 }
 
 .box-info p{
     font-size: 15pt;
     padding: 10px;
     
+    
 }
-.box-info a {
-    font-size: 15pt;
-    padding: 10px;
-}
-
 
 .c-h2 {
     background-color: red;
